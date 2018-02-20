@@ -1,0 +1,127 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    padding: 5% 0;
+    font-family: 'Oswald';
+}
+
+.container {
+    width: 800px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 350px 450px;
+    grid-template-rows: 600px;
+    grid-template-areas: "left  right";
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10% 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left {
+    grid-area: left;
+    background-color: #fff;
+    padding: 10%;
+}
+
+.right {
+    grid-area: right;
+    background-image: url('/images/side.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+.header-text{ 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+
+
+
+.input-text {
+    display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: 2px solid #b7b7b7;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  font: normal 14px/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,142,198,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(252,252,252,1);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.66) ;
+  border-left: 3px solid red;
+
+}
+
+.input-checkbox{
+    display: inline-block;
+}
+
+.Weare{
+color: silver;
+}
+
+.gray {
+    color: silver;
+}
+
+.remember {
+display: inline-block;
+}
+
+.logo {
+    width: 70%;
+   position: relative;
+   top: 37%;
+   left: 14%;
+   border: 2px solid black;
+   background-color: rgba(63,191,127,0.2);
+   
+    }
+
+.forgot {
+    display: inline-block;
+    font-size: 0.7rem;
+    margin-left: 40px;
+}
+
+::placeholder {
+    color: red;
+    opacity: 0.3;
+    font-size: 0.8rem
+}
+
+button {
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 105px;
+    
+}
+
+.button-log{
+background-color: black;
+color: #fff
+
+}
+
+.button-sign{
+background-color: silver;
+}
